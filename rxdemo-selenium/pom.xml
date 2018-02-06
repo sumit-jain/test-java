@@ -15,6 +15,8 @@
         <spring-boot-legacy.version>1.0.1.RELEASE</spring-boot-legacy.version>
         <appengine.target.version>1.9.17</appengine.target.version>
         <hibernate-validator.version>4.3.2.Final</hibernate-validator.version>
+        <maven.compiler.source>1.6</maven.compiler.source>
+        <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
 
     <dependencies>
