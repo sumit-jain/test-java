@@ -62,7 +62,7 @@ public class RxBase {
     @Before
     public void setUp() throws Exception {
         mDriver = new RemoteWebDriver(new URL("http://" + mAddress
-                + ":4444/wd/hub"), mDC);
+                + ":9515/wd/hub"), mDC);
         SetupRx.setupRx(mDriver,
                 getEnvironmentUrl(), URL2,
                 mBrowserName, mItemName);
